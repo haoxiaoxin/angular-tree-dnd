@@ -1339,9 +1339,9 @@ function fnInitTreeDnD($timeout, $http, $compile, $parse, $window, $document, $t
                             return $http.get(
                                 treeInclude,
                                 {cache: $templateCache}
-                            ).success(
+                            ).then(
                                 function (data) {
-                                    data              = data.trim();
+                                    data              = data.datatrim();
                                     //scope.templateNode = data;
                                     var tempDiv       = document.createElement('div');
                                     tempDiv.innerHTML = data;
