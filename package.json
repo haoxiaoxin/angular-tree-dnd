@@ -1,7 +1,7 @@
 {
     "autoupdate": {
         "source": "git",
-        "target": "git://github.com/thienhung1989/angular-tree-dnd.git",
+        "target": "git://github.com/haoxiaoxin/angular-tree-dnd.git",
         "basePath": "dist/",
         "files": [
             "ng-tree-dnd.js",
@@ -12,16 +12,16 @@
         ]
     },
     "main": "dist/ng-tree-dnd.js",
-    "author": "https://github.com/thienhung1989/angular-tree-dnd/graphs/contributors",
+    "author": "https://github.com/haoxiaoxin/angular-tree-dnd/graphs/contributors",
     "name": "angular-tree-dnd",
     "version": "3.0.5",
-    "homepage": "http://thienhung1989.github.io/angular-tree-dnd/",
+    "homepage": "http://haoxiaoxin.github.io/angular-tree-dnd/",
     "dependencies": {
         "angular": ">=1.2"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/thienhung1989/angular-tree-dnd.git"
+        "url": "git://github.com/haoxiaoxin/angular-tree-dnd.git"
     },
     "devDependencies": {
         "connect-livereload": ">=0.5.2",
